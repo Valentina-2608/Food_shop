@@ -90,7 +90,6 @@ header{
 }
 
 .text{
-    height:20px;
     font-size:20px;
     font-style:italic;
     flex-basis:50%;
@@ -122,4 +121,41 @@ header{
 #btn_login a{
     text-decoration:none;
     color:white;
+}
+
+.main_image{
+    width:100%;
+    height:600px;
+}
+
+.main_image img{
+    width:100%;
+}
+
+.text1{
+    width:40%;
+    text-align:center;
+    color:white;
+    font-size:100px;
+    font-weight:bold;
+    position:absolute;
+    top:280px;
+    left:30%;
+}
+
+#btn_message{
+    background-color: gray;
+    color:white;
+    font-weight:bold;
+    padding:10px;
+    position:absolute;
+    top:570px;
+    left:42%;
+    border:none;
+    width:15%;
+    font-size:16px;
+}
+
+#btn_message:hover{
+    cursor:pointer;
 }
