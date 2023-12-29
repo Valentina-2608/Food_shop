@@ -1,8 +1,8 @@
 .main{width:100%;
-    height:1200px;
+    height:730px;
     display:flex;
-background-color:beige;
-flex-direction:column;}
+    background-color:beige;
+    flex-direction:column;}
     
 /* header */
 
