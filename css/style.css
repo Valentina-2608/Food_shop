@@ -166,6 +166,33 @@ header{
 .login_main{width:100%;
     height:730px;
     display:flex;
-    background-color:#B5D4C7;
+    background-color:#C7F1DF;
     flex-direction:column;}
     
+
+.login_caption{
+    font-size:32px;
+    font-weight:bold;
+    color:white;
+}
+
+.header_elements{
+    width:100%;
+    height:100px;
+    background-color: white;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color:#023F25;
+}
+
+
+.text2{
+    color:white;
+    font-size:18px;
+    font-style:italic;
+}
+
+.text2 a{
+    color:white;
+}
