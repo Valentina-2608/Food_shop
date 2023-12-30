@@ -159,3 +159,13 @@ header{
 #btn_message:hover{
     cursor:pointer;
 }
+
+
+/* Login Page */
+
+.login_main{width:100%;
+    height:730px;
+    display:flex;
+    background-color:#B5D4C7;
+    flex-direction:column;}
+    
