@@ -331,3 +331,11 @@ input:focus{
     display:flex;
     background-color:#C7F1DF;
     flex-direction:column;}
+
+
+    
+.signup_caption{
+    font-size:32px;
+    font-weight:bold;
+    color:white;
+}
