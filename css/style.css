@@ -322,3 +322,12 @@ input:focus{
 .login_image img{
     width:50%;
 }
+
+
+/* Sign Up Page */
+
+.signup_main{width:100%;
+    height:730px;
+    display:flex;
+    background-color:#C7F1DF;
+    flex-direction:column;}
