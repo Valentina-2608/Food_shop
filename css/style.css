@@ -339,3 +339,30 @@ input:focus{
     font-weight:bold;
     color:white;
 }
+
+
+#form_sign{
+    width:42%;
+    height:300px;
+    background-color: #023F25;
+    display: flex;
+    flex-direction: column;
+    border-radius:20px;
+}
+
+
+#btn_sign_up{
+	width:20%;
+	padding:1%;
+	margin-top:10px;
+    background-color:#BF9F92;
+	color:black;
+	font-weight: bold;
+	border:none;
+	font-size:18px;
+	border-radius: 8px;
+}
+
+#btn_sign_up:hover{
+	cursor: pointer;
+}
