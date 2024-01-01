@@ -442,3 +442,31 @@ text-decoration: none;}
 #btn_sign_out:hover{
 	cursor: pointer;
 }
+
+.shop_image{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop_image img{
+    width:100%;
+}
+
+
+.text5{
+    color:white;
+    font-size:42px;
+    font-weight:bold;
+    position:absolute;
+}
+
+.text5>span{
+    color:black;
+}
+
+.text5>a{
+    color:darkred;
+    text-decoration: none;
+}
