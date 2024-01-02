@@ -527,3 +527,32 @@ text-decoration: none;}
     cursor: pointer;
 }
 
+.categories{
+    width:82%;
+    height:300px;
+    margin-left:6%;
+    border:1px solid lightgrey;
+    flex-direction: column;
+
+}
+
+.text6{
+    font-size:24px;
+    font-weight:bold;
+    margin-left:5%;
+    margin-top:10px;
+    text-decoration: underline;
+}
+
+
+.categories p{
+    margin-left:5%;
+    font-size:18px;
+    color:gray;
+    margin-top:29px;
+}
+.categories p:hover{
+    cursor:pointer;
+    color:darkgreen;
+    font-weight: bold;
+}
