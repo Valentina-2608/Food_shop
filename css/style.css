@@ -474,7 +474,7 @@ text-decoration: none;}
 .block_products{
     width:100%;
     height:800px;
-    background-color: bisque;
+    background-color: white;
     display:flex;
     flex-direction:row;
 }
