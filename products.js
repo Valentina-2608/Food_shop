@@ -52,5 +52,42 @@ let products = [
         "image":"img/beetroot.jpg",
         "caption":"Beetroot",
         "price":"7$",
+    },
+    {
+        "id":10,
+        "image":"img/prune.jpg",
+        "caption":"Prune",
+        "price":"3$",
+    },
+    {
+        "id":11,
+        "image":"img/cabbage.jpg",
+        "caption":"Cabbage",
+        "price":"2$",
+    },
+    {
+        "id":12,
+        "image":"img/peanut_oil.jpg",
+        "caption":"Peanut_oil",
+        "price":"7$",
+    },
+    {
+        "id":13,
+        "image":"img/sour_cream.jpg",
+        "caption":"Sour cream",
+        "price":"3$",
+    },
+    {
+        "id":14,
+        "image":"img/mango.jpg",
+        "caption":"Mango",
+        "price":"5$",
+    },
+    {
+        "id":15,
+        "image":"img/lemon.jpg",
+        "caption":"Lemon",
+        "price":"3$",
     }
+
 ]
