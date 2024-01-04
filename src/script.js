@@ -38,3 +38,27 @@ function load(){
 	 	createCard(product, product.image, product.caption, product.price, product.button)
 }
 }
+
+
+/* Load invisible elements */
+
+let btn_load=document.getElementById('btn_load');
+let shop_main=document.querySelector('.shop_main');
+let block_products=document.querySelector('.block_products');
+let list_products=document.querySelector('.list_products');
+btn_load.addEventListener('click', loadCards);
+function loadCards(){
+	var height1 = shop_main.offsetHeight;
+    var newHeight1 = height1 + 725;
+    shop_main.style.height = newHeight1+ 'px';
+
+	var height2 = block_products.offsetHeight;
+    var newHeight2 = height2 + 725;
+    block_products.style.height = newHeight2 + 'px';
+
+	var height3 = list_products.offsetHeight;
+    var newHeight3 = height3 + 725;
+    list_products.style.height = newHeight3 + 'px';
+}
+
+
