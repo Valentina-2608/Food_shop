@@ -1,4 +1,4 @@
-let goods = [
+let products = [
     {
         "id":1,
         "image":"img/apricot.jpg",
@@ -37,7 +37,7 @@ let goods = [
     },
     {
         "id":7,
-        "image":"img/dried_bannas.jpg",
+        "image":"img/dried_bananas.jpg",
         "caption":"Dried bananas",
         "price":"7$",
     },
