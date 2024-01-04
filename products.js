@@ -88,6 +88,60 @@ let products = [
         "image":"img/lemon.jpg",
         "caption":"Lemon",
         "price":"3$",
+    },
+    {
+        "id":16,
+        "image":"img/radish.jpg",
+        "caption":"Radish",
+        "price":"1$",
+    },
+    {
+        "id":17,
+        "image":"img/milk.jpg",
+        "caption":"Milk",
+        "price":"2$",
+    },
+    {
+        "id":18,
+        "image":"img/pepper.jpg",
+        "caption":"Pepper",
+        "price":"4$",
+    },
+    {
+        "id":19,
+        "image":"img/coconut_oil.jpg",
+        "caption":"Coconut oil",
+        "price":"10$",
+    },
+    {
+        "id":20,
+        "image":"img/cheddar_cheese.jpg",
+        "caption":"Cheddar cheese",
+        "price":"15$",
+    },
+    {
+        "id":21,
+        "image":"img/pear.jpeg",
+        "caption":"Pear",
+        "price":"3$",
+    },
+    {
+        "id":22,
+        "image":"img/dried_mango.jpg",
+        "caption":"Dried_mango",
+        "price":"6$",
+    },
+    {
+        "id":23,
+        "image":"img/orange.jpg",
+        "caption":"Orange",
+        "price":"4$",
+    },
+    {
+        "id":24,
+        "image":"img/cauliflower.jpg",
+        "caption":"Cauliflower",
+        "price":"5$",
     }
 
 ]
