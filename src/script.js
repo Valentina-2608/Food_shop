@@ -48,17 +48,27 @@ let block_products=document.querySelector('.block_products');
 let list_products=document.querySelector('.list_products');
 btn_load.addEventListener('click', loadCards);
 function loadCards(){
-	var height1 = shop_main.offsetHeight;
-    var newHeight1 = height1 + 725;
+	let height1 = shop_main.offsetHeight;
+    let newHeight1 = height1 + 380;
     shop_main.style.height = newHeight1+ 'px';
 
-	var height2 = block_products.offsetHeight;
-    var newHeight2 = height2 + 725;
+	let height2 = block_products.offsetHeight;
+    let newHeight2 = height2 + 380;
     block_products.style.height = newHeight2 + 'px';
 
-	var height3 = list_products.offsetHeight;
-    var newHeight3 = height3 + 725;
+	let height3 = list_products.offsetHeight;
+    let newHeight3 = height3 + 380;
     list_products.style.height = newHeight3 + 'px';
+
+	window.scrollBy(0, 420);
+	let newHeight4=block_products.offsetHeight;
+	if (newHeight4==6550){
+		btn_load.disabled=true;
+		btn_load.style.backgroundColor='gray';
+	}
+
+	
 }
+
 
 
