@@ -128,7 +128,7 @@ let products = [
     {
         "id":22,
         "image":"img/dried_mango.jpg",
-        "caption":"Dried_mango",
+        "caption":"Dried mango",
         "price":"6$",
     },
     {
@@ -142,6 +142,169 @@ let products = [
         "image":"img/cauliflower.jpg",
         "caption":"Cauliflower",
         "price":"5$",
+    },
+    {
+        "id":25,
+        "image":"img/yougurt.jpg",
+        "caption":"Yougurt",
+        "price":"4$",
+    },
+    {
+        "id":26,
+        "image":"img/courgette.jpg",
+        "caption":"Courgette",
+        "price":"1$",
+    },
+    {
+        "id":27,
+        "image":"img/avocado.jpg",
+        "caption":"Avocado",
+        "price":"5$",
+    },
+    {
+        "id":28,
+        "image":"img/dried_pineapple.jpg",
+        "caption":"Dried pineapple",
+        "price":"7$",
+    },
+    {
+        "id":29,
+        "image":"img/mustard_oil.jpg",
+        "caption":"Mustard oil",
+        "price":"8$",
+    },
+    {
+        "id":30,
+        "image":"img/banana.jpg",
+        "caption":"Banana",
+        "price":"4$",
+    },
+    {
+        "id":31,
+        "image":"img/cucumber.jpg",
+        "caption":"Cucumber",
+        "price":"2$",
+    },
+    {
+        "id":32,
+        "image":"img/butter.jpg",
+        "caption":"Butter",
+        "price":"5$",
+    },
+    {
+        "id":33,
+        "image":"img/raisins.jpg",
+        "caption":"Raisins",
+        "price":"3$",
+    },
+    {
+        "id":34,
+        "image":"img/peach.jpeg",
+        "caption":"Peach",
+        "price":"4$",
+    },
+    {
+        "id":35,
+        "image":"img/pumpkin_oil.jpg",
+        "caption":"Pumpkin oil",
+        "price":"7$",
+    },
+    {
+        "id":36,
+        "image":"img/cottage_cheese.jpg",
+        "caption":"Cottage cheese",
+        "price":"3$",
+    },
+    {
+        "id":37,
+        "image":"img/dried_apricot.jpg",
+        "caption":"Dried apricots",
+        "price":"5$",
+    },
+    {
+        "id":38,
+        "image":"img/brie_cheese.png",
+        "caption":"Brie cheese",
+        "price":"18$",
+    },
+    {
+        "id":39,
+        "image":"img/plum.jpg",
+        "caption":"Plum",
+        "price":"2$",
+    },
+    {
+        "id":40,
+        "image":"img/sunflower_oil.jpg",
+        "caption":"Sunflower oil",
+        "price":"5$",
+    },
+    {
+        "id":41,
+        "image":"img/pomegranate.jpg",
+        "caption":"Pomegranate",
+        "price":"6$",
+    },
+    {
+        "id":42,
+        "image":"img/cream.jpg",
+        "caption":"Cream",
+        "price":"3$",
+    },
+    {
+        "id":43,
+        "image":"img/dried_figs.jpg",
+        "caption":"Dried figs",
+        "price":"5$",
+    },
+    {
+        "id":44,
+        "image":"img/mozzarella_cheese.jpg",
+        "caption":"Mozzarella cheese",
+        "price":"15$",
+    },
+    {
+        "id":45,
+        "image":"img/tangerine.jpg",
+        "caption":"Tangerine",
+        "price":"3$",
+    },
+    {
+        "id":46,
+        "image":"img/sesame_oil.jpg",
+        "caption":"Sesame oil",
+        "price":"8$",
+    },
+    {
+        "id":47,
+        "image":"img/rokfor_cheese.jpg",
+        "caption":"Rokfor cheese",
+        "price":"21$",
+    },
+    {
+        "id":48,
+        "image":"img/kiwi.jpg",
+        "caption":"Kiwi",
+        "price":"4$",
+    },
+    {
+        "id":49,
+        "image":"img/tomato.jpg",
+        "caption":"Tomato",
+        "price":"3$",
+    },
+    {
+        "id":46,
+        "image":"img/pineapple.jpg",
+        "caption":"Pineapple",
+        "price":"6$",
+    },
+    {
+        "id":46,
+        "image":"img/condensed_milk.jpg",
+        "caption":"Condensed milk",
+        "price":"4$",
     }
+
 
 ]
