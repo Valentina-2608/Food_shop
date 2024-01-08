@@ -70,5 +70,20 @@ function loadCards(){
 	
 }
 
+let info_fruits=document.querySelector('.info_fruits');
+info_fruits.addEventListener('click', showFruits);
+function showFruits(){
+	let cards=document.querySelectorAll('.card');
+	regex=/Apple|Apricot|Avocado|Banana|Kiwi|Lemon|Mango|Orange|Peach|Pear|Pineapple|Plum|Pomegranate|Tangerine/
+	alert('hello')
+	for(let card of cards){
+		if (regex.test(card.innerHTML)){
+			card.style.display='flex';
+		}else{
+			card.style.display='none';
+		}
+	}
+}
+
 
 
