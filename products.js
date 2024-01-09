@@ -68,7 +68,7 @@ let products = [
     {
         "id":12,
         "image":"img/peanut_oil.jpg",
-        "caption":"Peanut_oil",
+        "caption":"Peanut oil",
         "price":"7$",
     },
     {
