@@ -132,3 +132,25 @@ function showDairyProducts(){
 	}
 
 }
+
+
+
+let info_dried_fruits=document.querySelector('.info_dried_fruits');
+info_dried_fruits.addEventListener('click', showDriedFruits);
+function showDriedFruits(){
+	let cards=document.querySelectorAll('.card');
+	regex=/Dried apricot|Dried bananas|Dried figs|Dried pineapple|Dried mango|Prune|Raisins/
+	for(let card of cards){
+		if (regex.test(card.innerHTML)){
+			card.style.display='flex';
+			shop_main.style.height='1900px';
+			block_products.style.height='1500px';
+			list_products.style.height="1200px";
+			btn_load.disabled=true;
+			btn_load.style.backgroundColor='gray';
+		}else{
+			card.style.display='none';
+		}
+	}
+
+}
