@@ -174,3 +174,17 @@ function showOil(){
 	}
 
 }
+
+let info_all=document.querySelector('.info_all');
+info_all.addEventListener('click', showAll);
+function showAll(){
+	let cards=document.querySelectorAll('.card');
+	for(let card of cards){
+			card.style.display='flex';
+			shop_main.style.height='1500px';
+			block_products.style.height='1200px';
+			list_products.style.height="780px";
+			btn_load.disabled=false;
+			btn_load.style.backgroundColor='darkred';
+	}
+}
