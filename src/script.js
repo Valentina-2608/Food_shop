@@ -73,6 +73,12 @@ function loadCards(){
 let info_fruits=document.querySelector('.info_fruits');
 info_fruits.addEventListener('click', showFruits);
 function showFruits(){
+	info_fruits.classList.add('active');
+	info_vegetables.classList.remove('active');
+	info_dairy_products.classList.remove('active');
+	info_dried_fruits.classList.remove('active');
+	info_oil.classList.remove('active');
+	info_all.classList.remove('active');
 	let cards=document.querySelectorAll('.card');
 	regex=/Apple|Apricot|Avocado|Banana|Kiwi|Lemon|Mango|Orange|Peach|Pear|Pineapple|Plum|Pomegranate|Tangerine/
 	for(let card of cards){
@@ -95,6 +101,12 @@ function showFruits(){
 let info_vegetables=document.querySelector('.info_vegetables');
 info_vegetables.addEventListener('click', showVegetables);
 function showVegetables(){
+	info_fruits.classList.remove('active');
+	info_vegetables.classList.add('active');
+	info_dairy_products.classList.remove('active');
+	info_dried_fruits.classList.remove('active');
+	info_oil.classList.remove('active');
+	info_all.classList.remove('active');
 	let cards=document.querySelectorAll('.card');
 	regex=/Beetroot|Cabbage|Carrot|Cauliflower|Courgett|Cucumber|Lettuce|Pepper|Radish|Tomato/
 	for(let card of cards){
@@ -116,6 +128,12 @@ function showVegetables(){
 let info_dairy_products=document.querySelector('.info_dairy_products');
 info_dairy_products.addEventListener('click', showDairyProducts);
 function showDairyProducts(){
+	info_fruits.classList.remove('active');
+	info_vegetables.classList.remove('active');
+	info_dairy_products.classList.add('active');
+	info_dried_fruits.classList.remove('active');
+	info_oil.classList.remove('active');
+	info_all.classList.remove('active');
 	let cards=document.querySelectorAll('.card');
 	regex=/Brie cheese|Butter|Cottage cheese|Cheddar cheese|Condensed milk|Cream|Ice cream|Feta cheese|Milk|Mozzarella cheese|Sour cream|Rokfor cheese|Yougurt/
 	for(let card of cards){
@@ -138,6 +156,12 @@ function showDairyProducts(){
 let info_dried_fruits=document.querySelector('.info_dried_fruits');
 info_dried_fruits.addEventListener('click', showDriedFruits);
 function showDriedFruits(){
+	info_fruits.classList.remove('active');
+	info_vegetables.classList.remove('active');
+	info_dairy_products.classList.remove('active');
+	info_dried_fruits.classList.add('active');
+	info_oil.classList.remove('active');
+	info_all.classList.remove('active');
 	let cards=document.querySelectorAll('.card');
 	regex=/Dried apricot|Dried bananas|Dried figs|Dried pineapple|Dried mango|Prune|Raisins/
 	for(let card of cards){
@@ -158,6 +182,12 @@ function showDriedFruits(){
 let info_oil=document.querySelector('.info_oil');
 info_oil.addEventListener('click', showOil);
 function showOil(){
+	info_fruits.classList.remove('active');
+	info_vegetables.classList.remove('active');
+	info_dairy_products.classList.remove('active');
+	info_dried_fruits.classList.remove('active');
+	info_oil.classList.add('active');
+	info_all.classList.remove('active');
 	let cards=document.querySelectorAll('.card');
 	regex=/Coconut oil|Mustard oil|Olive oil|Peanut oil|Pumpkin oil|Sesame oil|Sunflower oil/
 	for(let card of cards){
@@ -178,6 +208,12 @@ function showOil(){
 let info_all=document.querySelector('.info_all');
 info_all.addEventListener('click', showAll);
 function showAll(){
+	info_fruits.classList.remove('active');
+	info_vegetables.classList.remove('active');
+	info_dairy_products.classList.remove('active');
+	info_dried_fruits.classList.remove('active');
+	info_oil.classList.remove('active');
+	info_all.classList.add('active');
 	let cards=document.querySelectorAll('.card');
 	for(let card of cards){
 			card.style.display='flex';
