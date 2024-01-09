@@ -92,3 +92,22 @@ function showFruits(){
 
 
 
+let info_vegetables=document.querySelector('.info_vegetables');
+info_vegetables.addEventListener('click', showVegetables);
+function showVegetables(){
+	let cards=document.querySelectorAll('.card');
+	regex=/Beetroot|Cabbage|Carrot|Cauliflower|Courgett|Cucumber|Lettuce|Pepper|Radish|Tomato/
+	for(let card of cards){
+		if (regex.test(card.innerHTML)){
+			card.style.display='flex';
+			shop_main.style.height='2300px';
+			block_products.style.height='1900px';
+			list_products.style.height='1600px';
+			btn_load.disabled=true;
+			btn_load.style.backgroundColor='gray';
+		}else{
+			card.style.display='none';
+		}
+	}
+
+}
