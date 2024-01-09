@@ -37,6 +37,8 @@ function load(){
 	for(let product of products){
 	 	createCard(product, product.image, product.caption, product.price, product.button)
 }
+	let info_all=document.querySelector('.info_all');
+	info_all.classList.add('active');
 }
 
 
@@ -223,4 +225,5 @@ function showAll(){
 			btn_load.disabled=false;
 			btn_load.style.backgroundColor='darkred';
 	}
+	loadCards();
 }
