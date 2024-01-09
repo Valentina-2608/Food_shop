@@ -111,3 +111,24 @@ function showVegetables(){
 	}
 
 }
+
+
+let info_dairy_products=document.querySelector('.info_dairy_products');
+info_dairy_products.addEventListener('click', showDairyProducts);
+function showDairyProducts(){
+	let cards=document.querySelectorAll('.card');
+	regex=/Brie cheese|Butter|Cottage cheese|Cheddar cheese|Condensed milk|Cream|Ice cream|Feta cheese|Milk|Mozzarella cheese|Sour cream|Rokfor cheese|Yougurt/
+	for(let card of cards){
+		if (regex.test(card.innerHTML)){
+			card.style.display='flex';
+			shop_main.style.height='2700px';
+			block_products.style.height='2400px';
+			list_products.style.height='2000px';
+			btn_load.disabled=true;
+			btn_load.style.backgroundColor='gray';
+		}else{
+			card.style.display='none';
+		}
+	}
+
+}
