@@ -53,7 +53,7 @@ function loadCards(){
     shop_main.style.height = newHeight1+ 'px';
 
 	let height2 = block_products.offsetHeight;
-    let newHeight2 = height2 + 380;
+    let newHeight2 = height2 + 420;
     block_products.style.height = newHeight2 + 'px';
 
 	let height3 = list_products.offsetHeight;
@@ -75,14 +75,19 @@ info_fruits.addEventListener('click', showFruits);
 function showFruits(){
 	let cards=document.querySelectorAll('.card');
 	regex=/Apple|Apricot|Avocado|Banana|Kiwi|Lemon|Mango|Orange|Peach|Pear|Pineapple|Plum|Pomegranate|Tangerine/
-	alert('hello')
 	for(let card of cards){
 		if (regex.test(card.innerHTML)){
 			card.style.display='flex';
+			shop_main.style.height='2700px';
+			block_products.style.height='2200px';
+			list_products.style.height='2000px';
+			btn_load.disabled=true;
+			btn_load.style.backgroundColor='gray';
 		}else{
 			card.style.display='none';
 		}
 	}
+
 }
 
 
