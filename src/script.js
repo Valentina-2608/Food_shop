@@ -154,3 +154,23 @@ function showDriedFruits(){
 	}
 
 }
+
+let info_oil=document.querySelector('.info_oil');
+info_oil.addEventListener('click', showOil);
+function showOil(){
+	let cards=document.querySelectorAll('.card');
+	regex=/Coconut oil|Mustard oil|Olive oil|Peanut oil|Pumpkin oil|Sesame oil|Sunflower oil/
+	for(let card of cards){
+		if (regex.test(card.innerHTML)){
+			card.style.display='flex';
+			shop_main.style.height='1900px';
+			block_products.style.height='1500px';
+			list_products.style.height='1200px';
+			btn_load.disabled=true;
+			btn_load.style.backgroundColor='gray';
+		}else{
+			card.style.display='none';
+		}
+	}
+
+}
