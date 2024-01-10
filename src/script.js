@@ -64,7 +64,8 @@ function loadCards(){
 
 	window.scrollBy(0, 420);
 	let newHeight4=block_products.offsetHeight;
-	if (newHeight4==6550){
+	console.log(newHeight4);
+	if (newHeight4>6567){
 		btn_load.disabled=true;
 		btn_load.style.backgroundColor='gray';
 	}
@@ -224,6 +225,6 @@ function showAll(){
 			list_products.style.height="780px";
 			btn_load.disabled=false;
 			btn_load.style.backgroundColor='darkred';
+
 	}
-	loadCards();
 }
