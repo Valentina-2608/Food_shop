@@ -228,3 +228,19 @@ function showAll(){
 
 	}
 }
+
+let field_search=document.getElementById('field_search');
+let btn_search=document.getElementById('btn_search');
+btn_search.addEventListener('click', showProducts)
+function showProducts(){
+	let cards=document.querySelectorAll('.card');
+	for(let card of cards){
+		let searchValue = field_search.value.substring(0,1).toUpperCase() + field_search.value.substring(1);
+		if (card.innerHTML.includes(searchValue)){
+			card.style.display = 'flex';
+		}else{
+			card.style.display = 'none';
+		}
+	}
+	field_search.value= '';
+}
