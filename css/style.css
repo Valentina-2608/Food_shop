@@ -442,6 +442,24 @@ text-decoration: none;}
 	cursor: pointer;
 }
 
+.shop_basket{
+    width:20%;
+    display: flex;
+    align-items: center;
+    color:darkred;
+    font-weight:bold;
+    font-size:18px;
+}
+
+
+.shop_basket:hover{
+    cursor:pointer;
+}
+.shop_basket img{
+    width:18%;
+    margin-right: 10px;
+    
+}
 .shop_image{
     width:100%;
     display: flex;
@@ -451,6 +469,7 @@ text-decoration: none;}
 
 .shop_image img{
     width:100%;
+  
 }
 
 
