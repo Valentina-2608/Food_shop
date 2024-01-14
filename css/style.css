@@ -670,3 +670,23 @@ text-decoration: none;}
     background-color: beige;
 }
 
+.orders_image{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orders_image img{
+    width:100%;
+  
+}
+
+
+
+.text7{
+    color:darkred;
+    font-size:42px;
+    font-weight:bold;
+    position:absolute;
+}
