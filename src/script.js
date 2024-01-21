@@ -1,5 +1,5 @@
-/* Creating new element */
 
+/* Creating new element */
 function createCard(elem, elem_image, elem_caption, elem_price, elem_button){
 	let parent = document.querySelector('.list_products');	
 	let new_card = document.createElement('div');
@@ -32,14 +32,12 @@ function createCard(elem, elem_image, elem_caption, elem_price, elem_button){
 }	
 
 
-/* function load */
-function load(){
+
 	for(let product of products){
 	 	createCard(product, product.image, product.caption, product.price, product.button)
 }
-	let info_all=document.querySelector('.info_all');
-	info_all.classList.add('active');
-}
+	
+	
 
 
 /* Load invisible elements */
@@ -209,6 +207,7 @@ function showOil(){
 }
 
 let info_all=document.querySelector('.info_all');
+info_all.classList.add('active');
 info_all.addEventListener('click', showAll);
 function showAll(){
 	info_fruits.classList.remove('active');
@@ -244,3 +243,7 @@ function showProducts(){
 	}
 	field_search.value= '';
 }
+
+
+
+  
