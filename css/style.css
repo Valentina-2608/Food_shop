@@ -744,7 +744,6 @@ text-decoration: none;}
 .block_orders_row2{
     width:80%;
     height:100px;
-    background-color: pink;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -754,7 +753,7 @@ text-decoration: none;}
 .rectangle{
     width:100%;
     height:70px;
-    background-color:#642D00;
+    background-color:#007241;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     display: flex;
