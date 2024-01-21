@@ -702,12 +702,11 @@ text-decoration: none;}
 
 .block_orders{
     width:55%;
-    height:500px;
+    height:250px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
     background-color: aqua;
 }
 
@@ -715,7 +714,6 @@ text-decoration: none;}
 .block_orders_row1{
     width:80%;
     height:100px;
-    background-color: chartreuse;
     display: flex;
     align-items: center;
     justify-content: space-around;
