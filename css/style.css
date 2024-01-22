@@ -702,7 +702,6 @@ text-decoration: none;}
 
 .block_orders{
     width:55%;
-    height:250px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -794,7 +793,7 @@ text-decoration: none;}
     background-color:#007241;
     display: flex;
     flex-direction: column;
-    margin-top:-50px;
+    margin-top:-30px;
 }
 
 
