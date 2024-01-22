@@ -805,12 +805,14 @@ text-decoration: none;}
 }
 
 .new_order_caption{
-    width:30%;
+    width:35%;
     height:40px;
+    text-align: center;
 }
 
 
 .new_order_price{
-    width:10%;
+    width:30%;
     height:40px;
+    text-align: center;
 }
