@@ -796,3 +796,22 @@ text-decoration: none;}
     flex-direction: column;
     margin-top:-50px;
 }
+
+
+.new_order{
+    width:100%;
+    height:40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.new_order_caption{
+    width:30%;
+    height:40px;
+}
+
+
+.new_order_price{
+    width:10%;
+    height:40px;
+}
