@@ -853,3 +853,25 @@ text-decoration: none;}
 #show_total_price:hover{
     cursor: pointer;
 }
+
+
+.block_price_row2{
+    width:80%;
+    height:60px;
+    display: flex;
+    align-items: center;
+    background-color:yellow;
+    justify-content: space-around;
+}
+
+
+.caption4{
+    font-size:18px;
+    font-weight: bold;
+}
+
+.total_price{
+    color:darkred;
+    font-size:18px;
+    font-weight: bold;
+}
