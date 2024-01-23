@@ -817,4 +817,39 @@ text-decoration: none;}
 .block_price{
     width:45%;
     height:500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.block_price_row1{
+    width:80%;
+    height:100px;
+    display: flex;
+    align-items: center;
+    background-color: chocolate;
+    justify-content: space-around;
+}
+
+
+.caption3{
+    font-size:29px;
+    font-style:italic;
+    font-weight: bold;
+    color:darkgray;
+}
+
+
+#show_total_price{
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    background-color: darkgray;
+    color:white;
+    font-weight: bold;
+}
+
+#show_total_price:hover{
+    cursor: pointer;
 }
