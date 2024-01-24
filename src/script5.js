@@ -58,3 +58,18 @@ import { getFirestore, collection, onSnapshot } from "https://www.gstatic.com/fi
  
   }
 
+
+  /* Counting Total Price */
+let show_total_price=document.getElementById('show_total_price');
+let total_price=document.querySelector('.total_price');
+show_total_price.addEventListener('click', countTotalPrice);
+function countTotalPrice(){
+  let suma=0;
+  let new_orders_price=document.querySelectorAll('.new_order_price');
+  for(let i=0; i< new_orders_price.length; i++){
+    let new_order_price_string=new_orders_price[i].innerHTML;
+    let new_order_price_number=+new_order_price_string.substring(0,new_order_price_string.length-1);
+    suma+=new_order_price_number;
+}
+  total_price.innerHTML=suma+'$'
+}
