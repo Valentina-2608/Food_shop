@@ -908,3 +908,16 @@ text-decoration: none;}
     flex-direction:column;
     background-color:beige;
 }
+
+
+.contacts_image{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts_image img{
+    width:100%;
+  
+}
