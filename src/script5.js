@@ -50,8 +50,10 @@ import { getFirestore, collection, onSnapshot } from "https://www.gstatic.com/fi
 
 
       list_orders.appendChild(new_order);
+      setTimeout(()=>{
+        location.reload()
+      },20000)
 
-      
     })
 
   })
