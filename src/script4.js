@@ -23,10 +23,7 @@ import { getFirestore, addDoc, collection} from "https://www.gstatic.com/firebas
   const app = initializeApp(firebaseConfig);
   const db = getFirestore(app);
 
-  
 
-    
-    
   
 let card_buttons=document.querySelectorAll('.card_button')
 for(let i=0; i<card_buttons.length; i++){
