@@ -958,3 +958,7 @@ textarea{
     border-radius: 10px;
     font-weight: bold;
 }
+
+#btn_send:hover{
+    cursor: pointer;
+}
