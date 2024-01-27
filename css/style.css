@@ -921,3 +921,13 @@ text-decoration: none;}
     width:100%;
   
 }
+
+
+.contacts_form{
+    width:100%;
+    height:500px;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
