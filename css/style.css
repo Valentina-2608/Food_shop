@@ -939,6 +939,7 @@ form{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: #9DC39D;
 }
 
 textarea{
