@@ -1,8 +1,9 @@
 /* Delete orders from FireStore*/
 
 // Import the functions you need from the SDKs you need
+
 import { initializeApp} from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js"
-import { getFirestore, onSnapshot, doc, collection, deleteDoc } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js";
+import { getFirestore, collection, onSnapshot, doc, deleteDoc } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js";
 
 
  // TODO: Add SDKs for Firebase products that you want to use
@@ -31,5 +32,9 @@ import { getFirestore, onSnapshot, doc, collection, deleteDoc } from "https://ww
       docsSnap.forEach(doc => {
         deleteDoc(doc.ref)
       })
+      
     })
+    setTimeout(()=>{
+      location.reload()
+    },1000)
   })
