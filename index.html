@@ -1,0 +1,49 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Food shop</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="main">
+		<header>
+			<div class="email">
+				<img src="img/email.jpg">
+				info@organic.com
+			</div>
+			<div class="logo">
+				<img src="img/logo.png">
+				Organic Food
+			</div>
+			<div class="phone">
+				<img src="img/phone.png">
+				+38(093)22-11-555
+			</div>
+		</header>
+		<div class="for_users">
+			<div class="text">If you want to eat healthy and tasty food...</div>
+			<div class="block_buttons">
+				<button id="btn_sign">
+					<a href="sign_up_page.html">Sign Up</a>
+				</button>
+				<button id="btn_login">
+					<a href="login_page.html">Log In</a>
+				</button>
+		</div>
+		</div>
+		<div class="main_image">
+			<img src="img/main_image.jpg">
+			<div class="text1">Organic Food Shop</div>
+			<button id="btn_message">Order Now</button>
+		</div>
+	</div>
+	<script>
+		let btn_message=document.getElementById('btn_message');
+		btn_message.addEventListener('click', function(){
+			alert('Please, Log In or Sign Up.')
+		})
+	</script>
+</body>
+</html>
